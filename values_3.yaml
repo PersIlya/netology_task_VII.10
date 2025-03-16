@@ -1,0 +1,15 @@
+# Default values for porsev-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+Author: porsev
+
+replicaCount: 1
+
+image:
+  port: 8080
+
+namespace:
+  number: "2"  
+
+

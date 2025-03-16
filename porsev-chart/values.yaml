@@ -1,0 +1,26 @@
+# Default values for porsev-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+Author: porsev
+
+replicaCount: 1
+
+image:
+  name: nginx
+  tag: latest
+  number: "1"
+  port: 80
+
+namespace:
+  name: app
+  number: "1"
+  
+resources: 
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
